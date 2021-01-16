@@ -1,0 +1,122 @@
+<div
+  class="pt-20 container flex flex-col md:justify-around md:flex-row md:flex-wrap mx-auto sm:px4 md:px-6 xl:px-20">
+  <div class="flex lg:w-3/5 flex-wrap">
+    <div class=" flex flex-row w-full">
+      <!-- icono de fecha -->
+      <div class="hidden md:flex w-max order-1">
+        <div class="font-medium text-black flex hidden md:block">
+          <div class="w-32 flex-none rounded-t lg:rounded-t-none lg:rounded-l text-center shadow-lg ">
+
+            <div class="block rounded-t overflow-hidden  text-center ">
+              <div class="bg-red-600 text-white py-1">
+                Marzo
+              </div>
+              <div class="pt-1 border-l border-r border-white bg-white">
+                <span class="text-5xl font-bold leading-tight">
+                  15
+                </span>
+              </div>
+              <div class="border-l border-r border-b rounded-b-lg text-center border-white bg-white -pt-2 -mb-1">
+                <span class="text-sm">
+                  Viernes
+                </span>
+              </div>
+              <div class="pb-2 border-l border-r border-b rounded-b-lg text-center border-white bg-white">
+                <span class="text-xs leading-normal">
+                  Año 2021
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- menu de busqueda-->
+      <div class="flex w-full px-5 items-center order-2 ">
+        <input
+          class="shadow-lg text-black w-full rounded-l-md py-3 px-4 focus:outline-none focus:ring-4 focus:border-blue-200"
+          type="text" name="" id="">
+        <button class=" shadow-lg flex items-center w-max rounded-r-md px-4 py-3 bg-green-600 focus:bg-green-500 hover:bg-green-400 text-white
+        focus:outline-none focus:ring-4 focus:border-green-500" type="button">
+          <svg class=" fill-current text-white" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+            viewBox="0 0 24 24">
+            <path
+              d="M23.111 20.058l-4.977-4.977c.965-1.52 1.523-3.322 1.523-5.251 0-5.42-4.409-9.83-9.829-9.83-5.42 0-9.828 4.41-9.828 9.83s4.408 9.83 9.829 9.83c1.834 0 3.552-.505 5.022-1.383l5.021 5.021c2.144 2.141 5.384-1.096 3.239-3.24zm-20.064-10.228c0-3.739 3.043-6.782 6.782-6.782s6.782 3.042 6.782 6.782-3.043 6.782-6.782 6.782-6.782-3.043-6.782-6.782zm2.01-1.764c1.984-4.599 8.664-4.066 9.922.749-2.534-2.974-6.993-3.294-9.922-.749z" />
+          </svg> Buscar </button>
+      </div>
+    </div>
+
+
+    <div class=" w-full pt-5 items-center order-3 md:order-4">
+      <h1 class=" text-3xl pb-5"> Lista de atencion de hoy</h1>
+      <table class="border-separate border border-green-800">
+        <thead>
+          <tr>
+            <th class="border border-green-600 ">Rut</th>
+            <th class="border border-green-600 ">Nombre</th>
+            <th class="border border-green-600"> Edad </th>
+            <th class="border border-green-600">Tipo de atencion</th>
+            <th class="border border-green-600"> Detalles</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="border border-green-600 ">Indiana</td>
+            <td class="border border-green-600 ">Indianapolis</td>
+            <td class="border border-green-600 ">Indianapolis</td>
+            <td class="border border-green-600 ">Indianapolis</td>
+            <td class="border border-green-600 ">Indianapolis</td>
+
+          </tr>
+          <tr>
+            <td class="border border-green-600 ">Ohio</td>
+            <td class="border border-green-600 ">Columbus</td>
+            <td class="border border-green-600 ">Columbus</td>
+            <td class="border border-green-600 ">Columbus</td>
+            <td class="border border-green-600 ">Columbus</td>
+          </tr>
+          <tr>
+            <td class="border border-green-600 ">Michigan</td>
+            <td class="border border-green-600 ">Detroit</td>
+            <td class="border border-green-600 ">Detroit</td>
+            <td class="border border-green-600 ">Detroit</td>
+            <td class="border border-green-600 ">Detroit</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class=" w-full lg:w-2/5 order-4 md:order-3">
+    <h1 class=" text-center text-4xl"> Datos del Paciente</h1>
+    <div class="overflow-auto overscroll-contain h-96 ">
+      <h2 class=" text-2xl"> Nombre: </h2>
+      <h3 class="text-xl">Juan Perez C.</h3>
+      <h2 class=" text-2xl"> Rut: </h2>
+      <h3 class="text-xl">12345678-9</h3>
+      <h2 class=" text-2xl"> Correo electronico: </h2>
+      <h3 class="text-xl">correoelectronico@email.com</h3>
+      <h2 class=" text-2xl"> Edad: </h2>
+      <h3 class=" text-xl">26 años</h3>
+      <h2 class=" text-2xl"> Tipo de cita :</h2>
+      <h3 class="text-xl">Consulta</h3>
+      <h2 class=" text-2xl"> Fecha de atencion:</h2>
+      <h3 class="text-xl">15/12/20</h3>
+      <h2 class=" text-2xl"> Fecha de ultima atencion: </h2>
+      <h3 class=" text-xl">14/11/20</h3>
+      <h2 class="text-2xl"> Detalle de la consulta :</h2>
+      <h3 class="text-xl"> Detalles</h3>
+      <h2 class="text-2xl"> Notas de Doctor:</h2>
+      <h3 class="text-xl">Notas</h3>
+    </div>
+    <div class=" flex text-white pt-6 justify-between">
+      <button class="px-5 py-2 hover:text-black bg-green-500  hover:bg-green-200 focus:bg-green-400">Recepcionado
+      </button>
+      <button
+        class="px-5 py-2 hover:text-black bg-yellow-500  hover:bg-yellow-200 focus:bg-yellow-400">Retrazado</button>
+      <button class="px-5 py-2 hover:text-black bg-red-600  hover:bg-red-300  focus:bg-red-500">Inasistencia</button>
+      <button class="px-5 py-2 hover:text-black bg-red-800  hover:bg-red-500  focus:bg-red-700">Cancelado</button>
+    </div>
+  </div>
+
+</div>
